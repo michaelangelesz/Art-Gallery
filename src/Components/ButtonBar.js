@@ -1,7 +1,7 @@
 function ButtonBar(props) {
   return (
     <div>
-      <button value={-5} onClick={props.handleIterate}>
+      <button value={-11} onClick={props.handleIterate}>
         Way Back
       </button>
       <button value={-1} onClick={props.handleIterate}>
@@ -10,7 +10,7 @@ function ButtonBar(props) {
       <button value={1} onClick={props.handleIterate}>
         Next
       </button>
-      <button value={5} onClick={props.handleIterate}>
+      <button value={11} onClick={props.handleIterate}>
         Big Next
       </button>
     </div>
